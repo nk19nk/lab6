@@ -1,20 +1,14 @@
 package Task5;
 
-@Two(first = "Example", second = 12)
+@Two(first = "", second = 0)
 public class Class5 {
-    private String first;
-    private int second;
+    private String field;
 
-    public Class5(String first, int second) {
-        this.first = first;
-        this.second = second;
+    public String getField() {
+        return field;
     }
 
-    public int getSecond() {
-        return second;
-    }
-
-    public String getFirst() {
-        return first;
+    public Class5(String field) {
+        this.field = field;
     }
 }

@@ -1,14 +1,14 @@
-package Task2;
+package Task4;
 
-@Default(value = Class2.class)
-public class Class2 {
+@Validate(value = String.class)
+public class Class4 {
     private String field;
 
     public String getField() {
         return field;
     }
 
-    public Class2(String field) {
+    public Class4(String field) {
         this.field = field;
     }
 }
